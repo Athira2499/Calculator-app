@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator level 1</title>
+    <script src="https://kit.fontawesome.com/9c32bcb9ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!--main container-->
+    <main class="main-container">
+        <!--wsa icon-->
+        <div class="wsaicon-container">
+            <!--wsa icon image-->
+<img src="Wsa.png" alt="wsa icon" class="wsaicon"/>
+        </div>
+
+        <!--sub container-->
+        <div class="sub-container">
+            <!--Header container-->
+                <div class="header-container">
+                    <!--Calculator heading-->
+                    <h1 class="header">Calculator</h1>
+                </div>
+                <!--calculator container-->
+                <div class="Calculator-container">
+                    <!--background circle-->
+                    <div class="background-circle"></div>
+                    <!--calculator-->
+                    <div class="calculator">
+                        <!--Output screen-->
+                        <div class="output-field-container">
+                            <input type="text" class="output-field" id="display" readonly/>
+                            <input type="text" class="input-field" placeholder="0" id="input-screen" readonly/>
+                        </div>
+                        <!--Button row 1-->
+                        <section class="btn-row">
+                            <button class="clear-icon bg-icon"><i class="fa-solid fa-c"></i></button>
+                            <button class="delete-icon bg-icon"><i class="fa-solid fa-delete-left"></i></button>
+                            <button class="precentage-icon bg-icon"><i class="fa-solid fa-percent"></i></button>
+                            <button class="divide-icon bg-icon"><i class="fa-solid fa-divide"></i></button>
+                        </section>
+                        <!--Button row 2-->
+                        <section class="btn-row">
+                            <button>7</button>
+                            <button>8</button>
+                            <button>9</button>
+                            <button class="multiply-icon bg-icon"><i class="fa-solid fa-xmark"></i></button>
+                        </section>
+                        <!--Button row 3-->
+                        <section class="btn-row">
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
+                            <button class="add-icon bg-icon"><i class="fa-solid fa-plus"></i></button>
+                        </section>
+                        <!--Button row 4-->
+                        <section class="btn-row">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button class="minus-icon bg-icon"><i class="fa-solid fa-minus"></i></button>
+                        </section>
+                        <!--Button row 5-->
+                        <section class="btn-row">
+                            <button class="zero">0</button>
+                            <button>.</button>
+                            <button class="equal-icon bg-icon"><i class="fa-solid fa-equals"></i></button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-name">&copy;2024.WSA All RIGHTS RESERVED</footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
